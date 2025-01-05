@@ -1,0 +1,1 @@
+This repository demonstrates a common mistake when using the `useEffect` hook in React.  The issue arises from incorrectly updating state within the `useEffect`'s callback. The `bug.js` file showcases the error, while `bugSolution.js` provides the correct solution using functional updates to avoid closure issues.
